@@ -1,0 +1,12 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 10s linear infinite;
+}
+
+.transform {
+  perspective: (1000px) rotateX(10deg) rotateY(90deg) scale3d(1, 1, 1);
+}
